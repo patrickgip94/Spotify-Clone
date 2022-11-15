@@ -1,16 +1,21 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-
+import Sidebar from '../components/Sidebar';
 
 const Home: NextPage = () => {
   return (
-    <div className="">
-      <Head>
-        <title>Vibify 2.0</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="bg-black h-screen overflow-hidden">
+      <main>
+        <Sidebar />
+        {/* Center */}
+      </main>
 
-      <h1>This is a spotify clone</h1>
+      <div>
+        {/* Player */}
+        <p className="cursor-pointer">
+          Playlist Name...
+        </p>
+      </div>
     </div>
   )
 }
