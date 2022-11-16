@@ -4,12 +4,13 @@ import { getProviders, signIn } from "next-auth/react";
 function Login ({ providers }) {
   return (
     <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
-      <img className="w-64 mb-5" src="https://i.imgur.com/XMOMsmq.png" alt="Logo" />
+      <img className="w-64 mb-5" src="https://i.imgur.com/iSzVdx6.png" alt="Logo" />
 
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
           <button 
-            className="bg-[#18D860] text-white p-5 rounded-lg"
+            style={{ backgroundColor: "#18D860"}}
+            className="text-white p-5 rounded-lg"
             onClick={() => signIn(provider.id, { callbackUrl: "/" })}
           >
             Login with {provider.name}
