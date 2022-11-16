@@ -20,7 +20,7 @@ Working demo for the project - [Link](https://next-spotify-smoky.vercel.app)
 ## Technologies and Libraries used
 
 - [Next.JS 12](https://nextjs.org/)
-- Typescript
+- [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [NextAuth.js](https://next-auth.js.org/) for Spotify OAuth authentication
 
