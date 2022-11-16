@@ -35,9 +35,6 @@ Working demo for the project - [Link](https://next-spotify-smoky.vercel.app)
 - View artists and albums followed by the user
 - Display all the tracks in a playlist, an album, or of an artist
 - Play a track with play/pause controller
-- Search for any playlist, artist, album, or track
-- Browse music based on categories (eg: Rock, Indie, Hip-Hop)
-- Show latest releases
 
 
 
