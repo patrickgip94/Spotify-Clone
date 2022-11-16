@@ -1,7 +1,5 @@
 # Otoify - Spotify Clone
 
-<img src="https://cdn-images-1.medium.com/max/1000/0*mr1yE7_hsk_3mquJ" alt="sample intro image" width="700" />
-
 Otoify is a Spotify clone built using Next.js and TailwindCSS. Users can log in with their Spotify Premium account and view the playlists, artists, and albums followed by them.
 
 *Oto-: Prefix meaning ear, as in otology (the study and medical care of the ear)*
